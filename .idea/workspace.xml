@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f36a4fa4-e4ef-4944-b052-aa16e058db9b" name="Default Changelist" comment="" />
+    <list default="true" id="f36a4fa4-e4ef-4944-b052-aa16e058db9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/templateContactXMLStorage/xmlContacts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/group_xml_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/group_xml_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/ContactService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/MyController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -26,12 +36,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1aaNjTaXoJqI9nC4KKCBejXdsn7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586360473221" />
@@ -116,12 +131,26 @@
       <workItem from="1583948339980" duration="24000" />
       <workItem from="1586187147838" duration="28000" />
       <workItem from="1586358842356" duration="436000" />
-      <workItem from="1586969886318" duration="17468000" />
+      <workItem from="1586969886318" duration="18312000" />
+      <workItem from="1587120721824" duration="10440000" />
     </task>
+    <task id="LOCAL-00001" summary="downloadGroupXML, downloadContactXML(...)">
+      <created>1587112584274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587112584274</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="downloadGroupXML, downloadContactXML(...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="downloadGroupXML, downloadContactXML(...)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Project_Structure" timestamp="1586970234793">
@@ -140,26 +169,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="431" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586970029767" />
+    <state x="585" y="119" key="CommitChangelistDialog2" timestamp="1587112583239">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="585" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587112583239" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1587056750181">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1587056750181" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1587112195530">
+    <state width="1877" height="286" key="GridCell.Tab.0.bottom" timestamp="1587134103779">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587112195530" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1587112195530">
+    <state width="1877" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587134103779" />
+    <state width="1877" height="286" key="GridCell.Tab.0.center" timestamp="1587134103778">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587112195530" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1587112195530">
+    <state width="1877" height="286" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587134103778" />
+    <state width="1877" height="286" key="GridCell.Tab.0.left" timestamp="1587134103778">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587112195530" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1587112195530">
+    <state width="1877" height="286" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587134103778" />
+    <state width="1877" height="286" key="GridCell.Tab.0.right" timestamp="1587134103779">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587112195530" />
+    <state width="1877" height="286" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587134103779" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1587112585738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1587112585738" />
     <state x="342" y="220" key="new project wizard" timestamp="1587040152882">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

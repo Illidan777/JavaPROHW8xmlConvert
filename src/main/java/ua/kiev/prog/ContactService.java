@@ -32,7 +32,9 @@ public class ContactService {
             groupRepository.delete(id);
     }
     @Transactional
-    public void saveToXML(long[] ids,Pageable pageable){
+    public void saveGroupToXML(long[] ids,Pageable pageable){
+        File dir =new File("src/main/XMLGroupDiRECTORY");
+        dir.mkdir();
         int temp = 1;
         List<Group> groupList = new ArrayList<>();
         List<Contact> contactRepositoryByGroup = null;
@@ -42,7 +44,7 @@ public class ContactService {
             groupList.add(groupRepository.findOne(id));
         }
         for (Group group: groupList){
-            xml = new File("src/main/XMLGroup" + temp++ + ".txt");
+            xml = new File("src/main/XMLGroupDiRECTORY/XMLGroup#" + temp++ + ".xml");
            contactRepositoryByGroup = contactRepository.findByGroup(group, pageable);
         }
         System.out.println(contactRepositoryByGroup);
@@ -61,6 +63,34 @@ public class ContactService {
                 e.printStackTrace();
             }
         }
+    }
+
+    @Transactional
+    public void saveContactToXML(long[] ids){
+        File dir = new File("src/main/templateContactXMLStorage");
+        dir.mkdir();
+        File xml = new File("src/main/templateContactXMLStorage/xmlContacts.xml");
+        List<Contact> contactList = new ArrayList<>();
+        List<ContactDTO>contactDTOList = new ArrayList<>();
+        for (long id:ids) {
+            contactList.add(contactRepository.findOne(id));
+        }
+        for (Contact t:contactList) {
+            if(t!=null){
+                contactDTOList.add(t.toDTO());
+            }
+        }
+        ContactXMLCatalog contactXMLCatalog = new ContactXMLCatalog();
+        for (ContactDTO contact:contactDTOList) {
+            contactXMLCatalog.addContact(contact);
+            try {
+                xml.createNewFile();
+                JAXBWorker.saveToXML(contactXMLCatalog, xml);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
     }
 
     @Transactional

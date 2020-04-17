@@ -9,6 +9,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletResponse;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.List;
 
 @Controller
@@ -88,11 +94,49 @@ public class MyController {
 
     @RequestMapping(value = "/contact/delete", method = RequestMethod.POST)
     public ResponseEntity<Void> delete(@RequestParam(value = "toDelete[]", required = false)
-                                                   long[] toDelete) {
+                                               long[] toDelete) {
         if (toDelete != null && toDelete.length > 0)
             contactService.deleteContacts(toDelete);
 
         return new ResponseEntity<>(HttpStatus.OK);
+    }
+//ResponseEntity<Void>
+    @RequestMapping(value = "/contact/toXML", method = RequestMethod.POST)
+    public void toXMLContact(@RequestParam(value = "toXMLContact[]", required = false)
+                                               long[] toXMLContact, HttpServletResponse response) {
+        if (toXMLContact != null && toXMLContact.length > 0) {
+             contactService.saveContactToXML(toXMLContact);
+            System.out.println("File converted to XML");
+            }
+        }
+
+
+    @RequestMapping(value = "/contact/toXML/download" , method = RequestMethod.GET)
+    @ResponseBody
+    public void download(HttpServletResponse response){
+        String name = "xmlContacts.xml";
+        String filePathOnServer = "src/main/templateContactXMLStorage/" + name;
+       // if(filename.indexOf(".txt")>-1)
+        response.setContentType("application/xml");
+        response.setHeader("Content-Disposition","attachment; filename=" +name);
+        response.setHeader("Content-Transfer-Encoding" , "binary");
+
+        try {
+            BufferedOutputStream bos = new BufferedOutputStream(response.getOutputStream());
+            FileInputStream fis = new FileInputStream(filePathOnServer);
+            int len;
+            byte[]buffer = new byte[1024];
+            while ((len = fis.read(buffer))>0){
+                bos.write(buffer,0,len);
+            }
+            response.flushBuffer();
+            bos.close();
+
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
     }
 
     @RequestMapping(value="/contact/add", method = RequestMethod.POST)
@@ -139,7 +183,7 @@ public class MyController {
     public String toXMLGroup(
             @RequestParam(value = "toXMLGroup[]", required = false) long[] toXML) {
         if (toXML != null && toXML.length > 0)
-            contactService.saveToXML(toXML, null);
+            contactService.saveGroupToXML(toXML,null);
         return "redirect:/";
     }
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contactXMLCatalog>
+    <contact>
+        <email>user9@other.com</email>
+        <id>0</id>
+        <name>Other9</name>
+        <phone>76543219</phone>
+        <surname>OtherSurname9</surname>
+    </contact>
+    <contact>
+        <email>user8@other.com</email>
+        <id>0</id>
+        <name>Other8</name>
+        <phone>76543218</phone>
+        <surname>OtherSurname8</surname>
+    </contact>
+</contactXMLCatalog>

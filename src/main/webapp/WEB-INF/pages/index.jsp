@@ -22,6 +22,8 @@
                             <li><button type="button" id="delete_contact" class="btn btn-default navbar-btn">Delete Contact</button></li>
                             <li><button type="button" id="delete_group" class="btn btn-default navbar-btn"> Delete Group</button></li>
                             <li><button type="button" id="xml_group" class="btn btn-default navbar-btn"> Convert group to XML-format</button></li>
+                            <li><button type="button" id="xml_contact" class="btn btn-default navbar-btn">Download in XML</button></li>
+
 
                             <li><button type="button" id="reset" class="btn btn-default navbar-btn">Reset</button></li>
                             <li class="dropdown">
@@ -106,6 +108,17 @@
                 window.location.href = '/group_xml_page'
 
             })
+
+            $('#xml_contact').click(function(){
+                var data = { 'toXMLContact[]' : []};
+                $(":checked").each(function() {
+                    data['toXMLContact[]'].push($(this).val());
+                });
+                $.post("/contact/toXML", data, function(data, status) {
+
+                });
+                window.location.href = '/contact/toXML/download'
+            });
 
             $('#add_group').click(function(){
                 window.location.href='/group_add_page';

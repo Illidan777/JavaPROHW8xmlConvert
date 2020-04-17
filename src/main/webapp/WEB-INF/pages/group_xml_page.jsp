@@ -24,7 +24,6 @@
 
     </table>
     <li><button type="submit" id="toXML_group" class="btn btn-default">Convert</button></li>
-
     <li><button>
 </form>>
 
