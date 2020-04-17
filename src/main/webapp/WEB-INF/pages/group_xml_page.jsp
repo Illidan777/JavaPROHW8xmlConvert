@@ -17,7 +17,7 @@
         </thead>
         <c:forEach items="${groups}" var="gr">
             <tr>
-                <td><input type="checkbox" name="toXMLGroup[]" value="${gr.id}" id="checkbox_${gr.id}"/></td>
+                <td><input type="radio" name="toXMLGroup[]" value="${gr.id}" id="checkbox_${gr.id}"/></td>
                 <td>${gr.name}</td>>
             </tr>
         </c:forEach>

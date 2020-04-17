@@ -43,7 +43,7 @@ public class ContactService {
         File dir =new File("src/main/XMLGroupDiRECTORY");
         dir.mkdir();
         List<Group> groupList = new ArrayList<>();
-        List<Contact> contactRepositoryByGroup ;
+        List<Contact> contactRepositoryByGroup = new ArrayList<>();
         List<ContactDTO>contactDTOList = new ArrayList<>();
         File xml = null;
         for (long id: ids) {
@@ -52,7 +52,9 @@ public class ContactService {
         System.out.println(groupList);
         for (Group group: groupList){
             xml = new File("src/main/XMLGroupDiRECTORY/XMLGroup#" + group.getName() + ".xml");
-           contactRepositoryByGroup = contactRepository.findByGroup(group, null);
+                contactRepositoryByGroup = contactRepository.findByGroup(group, null);
+
+
 
             for (Contact t:contactRepositoryByGroup) {
                 if(t!=null){
@@ -70,9 +72,7 @@ public class ContactService {
                     e.printStackTrace();
                 }
             }
-
         }
-
     }
 
     @Transactional
