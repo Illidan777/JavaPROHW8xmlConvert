@@ -50,17 +50,6 @@ public class ContactController {
         return "index";
     }
 
-    @RequestMapping("/reset")
-    public String reset() {
-        contactService.reset();
-        return "redirect:/";
-    }
-
-    @RequestMapping("/contact_add_page")
-    public String contactAddPage(Model model) {
-        model.addAttribute("groups", contactService.findGroups());
-        return "contact_add_page";
-    }
     @RequestMapping(value = "/search", method = RequestMethod.POST)
     public String search(@RequestParam String pattern, Model model) {
         model.addAttribute("groups", contactService.findGroups());
@@ -90,7 +79,7 @@ public class ContactController {
 
     @RequestMapping(value = "/contact/toXML/download" , method = RequestMethod.GET)
     @ResponseBody
-    public void download(HttpServletResponse response){
+    public String download(HttpServletResponse response){
         String name = "xmlContacts.xml";
         String filePathOnServer = "src/main/templateContactXMLStorage/" + name;
         // if(filename.indexOf(".txt")>-1)
@@ -113,7 +102,7 @@ public class ContactController {
         }catch (IOException e){
             e.printStackTrace();
         }
-
+        return "redirect:/";
     }
 
     @RequestMapping(value="/contact/add", method = RequestMethod.POST)

@@ -25,10 +25,7 @@ public class GroupController {
     public GroupController(ContactService contactService) {
         this.contactService = contactService;
     }
-    @RequestMapping("/group_add_page")
-    public String groupAddPage() {
-        return "group_add_page";
-    }
+
 
     @RequestMapping("/group/{id}")
     public String listGroup(
@@ -48,22 +45,6 @@ public class GroupController {
         model.addAttribute("groupId", groupId);
 
         return "index";
-    }
-
-    @RequestMapping(value="/group/add", method = RequestMethod.POST)
-    public String groupAdd(@RequestParam String name) {
-        contactService.addGroup(new Group(name));
-        return "redirect:/";
-    }
-    @RequestMapping("/group_delete_page")
-    public String groupDeletePage(Model model) {
-        model.addAttribute("groups", contactService.findGroups());
-        return "group_delete_page";
-    }
-    @RequestMapping(value = "/group_xml_page")
-    public String groupXMLPage(Model model){
-        model.addAttribute("groups", contactService.findGroups());
-        return "group_xml_page";
     }
 
 

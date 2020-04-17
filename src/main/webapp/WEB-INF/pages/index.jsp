@@ -106,18 +106,22 @@
 
             $('#xml_group').click(function () {
                 window.location.href = '/group_xml_page';
-
             })
+
+
 
             $('#xml_contact').click(function(){
                 var data = { 'toXMLContact[]' : []};
+
                 $(":checked").each(function() {
                     data['toXMLContact[]'].push($(this).val());
                 });
                 $.post("/contact/toXML", data, function(data, status) {
 
                 });
-                window.location.href = '/contact/toXML/download';
+                $(":checked").each(function() {
+                   window.location.href = '/verification_download'
+                });
             });
 
 
