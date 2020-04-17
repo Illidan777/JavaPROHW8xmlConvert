@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f36a4fa4-e4ef-4944-b052-aa16e058db9b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aaNjTaXoJqI9nC4KKCBejXdsn7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586360473221" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaProHW5Bank" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15479723" />
+    <property name="project.structure.side.proportion" value="0.20502092" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaProject\SP7Imp\src\main\webapp\WEB-INF\pages" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/resourses" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.kiev.prog.Application" />
+      <module name="SP7Imp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.kiev.prog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SP7Imp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ua.kiev.prog.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f36a4fa4-e4ef-4944-b052-aa16e058db9b" name="Default Changelist" comment="" />
+      <created>1553704722795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553704722795</updated>
+      <workItem from="1553704726624" duration="5516000" />
+      <workItem from="1553766028607" duration="12000" />
+      <workItem from="1553792192471" duration="3692000" />
+      <workItem from="1568734970996" duration="3557000" />
+      <workItem from="1568898005597" duration="7774000" />
+      <workItem from="1568982358401" duration="287000" />
+      <workItem from="1569251999393" duration="85000" />
+      <workItem from="1573051582042" duration="36000" />
+      <workItem from="1573052830595" duration="615000" />
+      <workItem from="1573059120561" duration="6764000" />
+      <workItem from="1573563285449" duration="10000" />
+      <workItem from="1573563327647" duration="562000" />
+      <workItem from="1573576806764" duration="11000" />
+      <workItem from="1575996388490" duration="6754000" />
+      <workItem from="1576169562408" duration="611000" />
+      <workItem from="1579193962954" duration="131000" />
+      <workItem from="1579379182052" duration="3850000" />
+      <workItem from="1579539134139" duration="157000" />
+      <workItem from="1579704783747" duration="17000" />
+      <workItem from="1579719001690" duration="382000" />
+      <workItem from="1579784972849" duration="8000" />
+      <workItem from="1580130723737" duration="4959000" />
+      <workItem from="1580230119419" duration="396000" />
+      <workItem from="1583427326490" duration="13000" />
+      <workItem from="1583859557553" duration="3357000" />
+      <workItem from="1583948339980" duration="24000" />
+      <workItem from="1586187147838" duration="28000" />
+      <workItem from="1586358842356" duration="436000" />
+      <workItem from="1586969886318" duration="17468000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#Project_Structure" timestamp="1586970234793">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1586970234793" />
+    <state x="713" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587053965924">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="713" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1587053965924" />
+    <state x="730" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1587109730142">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="730" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1587109730142" />
+    <state x="759" y="431" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1586970029767">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="759" y="431" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586970029767" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1587056750181">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1587056750181" />
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1587112195530">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587112195530" />
+    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1587112195530">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587112195530" />
+    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1587112195530">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587112195530" />
+    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1587112195530">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587112195530" />
+    <state x="342" y="220" key="new project wizard" timestamp="1587040152882">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="342" y="220" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1587040152882" />
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+</project>
