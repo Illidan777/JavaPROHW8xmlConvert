@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contactXMLCatalog>
+    <contact>
+        <email>+380960806935</email>
+        <name>Yulia</name>
+        <phone>77777@gmail.com</phone>
+        <surname>Slus</surname>
+    </contact>
+    <contact>
+        <email>+380995555555</email>
+        <name>John</name>
+        <phone>smith111@gmail.com</phone>
+        <surname>Smith</surname>
+    </contact>
+    <contact>
+        <email>+380963333333</email>
+        <name>Elizabeth</name>
+        <phone>swan1@gmail.com</phone>
+        <surname>Swan</surname>
+    </contact>
+</contactXMLCatalog>

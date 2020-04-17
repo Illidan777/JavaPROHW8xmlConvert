@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contactXMLCatalog>
     <contact>
-        <email>user6@other.com</email>
-        <name>Other6</name>
-        <phone>76543216</phone>
-        <surname>OtherSurname6</surname>
+        <email>+380500806935</email>
+        <name>Yulia</name>
+        <phone>77777@gmail.com</phone>
+        <surname>Trotsenko</surname>
     </contact>
     <contact>
-        <email>user5@other.com</email>
-        <name>Other5</name>
-        <phone>76543215</phone>
-        <surname>OtherSurname5</surname>
+        <email>user9@other.com</email>
+        <name>Other9</name>
+        <phone>76543219</phone>
+        <surname>OtherSurname9</surname>
     </contact>
     <contact>
-        <email>user4@other.com</email>
-        <name>Other4</name>
-        <phone>76543214</phone>
-        <surname>OtherSurname4</surname>
+        <email>user8@other.com</email>
+        <name>Other8</name>
+        <phone>76543218</phone>
+        <surname>OtherSurname8</surname>
     </contact>
 </contactXMLCatalog>
