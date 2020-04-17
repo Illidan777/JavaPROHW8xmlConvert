@@ -1,9 +1,16 @@
-package ua.kiev.prog;
+package ua.kiev.prog.Servise;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import ua.kiev.prog.DTO.ContactDTO;
+import ua.kiev.prog.Models.Contact;
+import ua.kiev.prog.Models.Group;
+import ua.kiev.prog.Repozitory.ContactRepository;
+import ua.kiev.prog.Repozitory.GroupRepository;
+import ua.kiev.prog.XMLservise.ContactXMLCatalog;
+import ua.kiev.prog.XMLservise.JAXBWorker;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,37 +39,40 @@ public class ContactService {
             groupRepository.delete(id);
     }
     @Transactional
-    public void saveGroupToXML(long[] ids,Pageable pageable){
+    public void saveGroupToXML(long[] ids){
         File dir =new File("src/main/XMLGroupDiRECTORY");
         dir.mkdir();
-        int temp = 1;
         List<Group> groupList = new ArrayList<>();
-        List<Contact> contactRepositoryByGroup = null;
+        List<Contact> contactRepositoryByGroup ;
         List<ContactDTO>contactDTOList = new ArrayList<>();
         File xml = null;
         for (long id: ids) {
             groupList.add(groupRepository.findOne(id));
         }
+        System.out.println(groupList);
         for (Group group: groupList){
-            xml = new File("src/main/XMLGroupDiRECTORY/XMLGroup#" + temp++ + ".xml");
-           contactRepositoryByGroup = contactRepository.findByGroup(group, pageable);
-        }
-        System.out.println(contactRepositoryByGroup);
-        for (Contact t:contactRepositoryByGroup) {
-            if(t!=null){
-                contactDTOList.add(t.toDTO());
+            xml = new File("src/main/XMLGroupDiRECTORY/XMLGroup#" + group.getName() + ".xml");
+           contactRepositoryByGroup = contactRepository.findByGroup(group, null);
+
+            for (Contact t:contactRepositoryByGroup) {
+                if(t!=null){
+                    contactDTOList.add(t.toDTO());
+                }
             }
-        }
-       ContactXMLCatalog contactXMLCatalog = new ContactXMLCatalog();
-        for (ContactDTO contact:contactDTOList) {
-          contactXMLCatalog.addContact(contact);
-            try {
-                xml.createNewFile();
-                JAXBWorker.saveToXML(contactXMLCatalog, xml);
-            } catch (IOException e) {
-                e.printStackTrace();
+            ContactXMLCatalog contactXMLCatalog = new ContactXMLCatalog();
+            for (ContactDTO contact:contactDTOList) {
+                contactXMLCatalog.addContact(contact);
+                try {
+                    xml.createNewFile();
+                    JAXBWorker.saveToXML(contactXMLCatalog, xml);
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
+
         }
+
     }
 
     @Transactional

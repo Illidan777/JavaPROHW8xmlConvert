@@ -1,10 +1,9 @@
-package ua.kiev.prog;
+package ua.kiev.prog.XMLservise;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import java.io.File;
-import java.util.List;
 
 public class JAXBWorker {
     public static void saveToXML(ContactXMLCatalog contactXMLCatalog, File file){

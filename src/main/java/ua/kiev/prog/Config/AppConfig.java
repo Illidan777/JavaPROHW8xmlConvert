@@ -1,10 +1,13 @@
-package ua.kiev.prog;
+package ua.kiev.prog.Config;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import ua.kiev.prog.Models.Contact;
+import ua.kiev.prog.Models.Group;
+import ua.kiev.prog.Servise.ContactService;
 
 @Configuration
 public class AppConfig extends WebMvcConfigurerAdapter {

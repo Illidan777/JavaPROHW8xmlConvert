@@ -1,4 +1,4 @@
-package ua.kiev.prog;
+package ua.kiev.prog.Models;
 
 import javax.persistence.*;
 import java.util.ArrayList;

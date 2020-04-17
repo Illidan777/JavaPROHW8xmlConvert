@@ -2,15 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36a4fa4-e4ef-4944-b052-aa16e058db9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/templateContactXMLStorage/xmlContacts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/XMLGroupDiRECTORY/XMLGroup#112.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/XMLGroupDiRECTORY/XMLGroup#155.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Controllers/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Controllers/GroupController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/ContactService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/group_xml_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/group_xml_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Models/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/ContactDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/DTO/ContactDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Repozitory/ContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Servise/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/ContactXMLCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/XMLservise/ContactXMLCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Models/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/GroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/Repozitory/GroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/JAXBWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/XMLservise/JAXBWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kiev/prog/MyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/templateContactXMLStorage/xmlContacts.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/ContactService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/AppConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/kiev/prog/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/ContactDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/ContactRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/ContactService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/ContactXMLCatalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/GroupRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/JAXBWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kiev/prog/MyController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,7 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586360473221" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaProHW5Bank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ua/kiev/prog/XMLservise" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -59,11 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaProject\SP7Imp\src\main\java\ua\kiev\prog\XMLservise" />
       <recent name="C:\JavaProject\SP7Imp\src\main\webapp\WEB-INF\pages" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/resourses" />
       <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
@@ -72,7 +94,7 @@
       <module name="SP7Imp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.kiev.prog.*" />
+          <option name="PATTERN" value="ua.kiev.prog.DTO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,7 +154,7 @@
       <workItem from="1586187147838" duration="28000" />
       <workItem from="1586358842356" duration="436000" />
       <workItem from="1586969886318" duration="18312000" />
-      <workItem from="1587120721824" duration="10440000" />
+      <workItem from="1587120721824" duration="17807000" />
     </task>
     <task id="LOCAL-00001" summary="downloadGroupXML, downloadContactXML(...)">
       <created>1587112584274</created>
@@ -141,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587112584274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="downloadGroupXML, downloadContactXML">
+      <created>1587134172225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587134172225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +179,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="downloadGroupXML, downloadContactXML(...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="downloadGroupXML, downloadContactXML(...)" />
+    <MESSAGE value="downloadGroupXML, downloadContactXML" />
+    <option name="LAST_COMMIT_MESSAGE" value="downloadGroupXML, downloadContactXML" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Project_Structure" timestamp="1586970234793">
@@ -161,42 +191,42 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="713" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1587053965924" />
-    <state x="730" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1587109730142">
+    <state x="730" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1587137226617">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="730" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1587109730142" />
+    <state x="730" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1587137226617" />
     <state x="759" y="431" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1586970029767">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="431" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586970029767" />
-    <state x="585" y="119" key="CommitChangelistDialog2" timestamp="1587112583239">
+    <state x="585" y="119" key="CommitChangelistDialog2" timestamp="1587134171231">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587112583239" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1587056750181">
+    <state x="585" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587134171231" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1587134240882">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1587056750181" />
-    <state width="1877" height="286" key="GridCell.Tab.0.bottom" timestamp="1587134103779">
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1587134240882" />
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom" timestamp="1587142806312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587134103779" />
-    <state width="1877" height="286" key="GridCell.Tab.0.center" timestamp="1587134103778">
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587142806312" />
+    <state width="1877" height="380" key="GridCell.Tab.0.center" timestamp="1587142806312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587134103778" />
-    <state width="1877" height="286" key="GridCell.Tab.0.left" timestamp="1587134103778">
+    <state width="1877" height="380" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587142806312" />
+    <state width="1877" height="380" key="GridCell.Tab.0.left" timestamp="1587142806312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587134103778" />
-    <state width="1877" height="286" key="GridCell.Tab.0.right" timestamp="1587134103779">
+    <state width="1877" height="380" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587142806312" />
+    <state width="1877" height="380" key="GridCell.Tab.0.right" timestamp="1587142806312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="286" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587134103779" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1587112585738">
+    <state width="1877" height="380" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587142806312" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1587134174111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1587112585738" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1587134174111" />
     <state x="342" y="220" key="new project wizard" timestamp="1587040152882">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

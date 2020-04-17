@@ -100,12 +100,12 @@
             });
 
             $('#delete_group').click(function () {
-                window.location.href = '/group_delete_page'
+                window.location.href = '/group_delete_page';
 
             })
 
             $('#xml_group').click(function () {
-                window.location.href = '/group_xml_page'
+                window.location.href = '/group_xml_page';
 
             })
 
@@ -117,8 +117,9 @@
                 $.post("/contact/toXML", data, function(data, status) {
 
                 });
-                window.location.href = '/contact/toXML/download'
+                window.location.href = '/contact/toXML/download';
             });
+
 
             $('#add_group').click(function(){
                 window.location.href='/group_add_page';

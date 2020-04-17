@@ -1,4 +1,6 @@
-package ua.kiev.prog;
+package ua.kiev.prog.XMLservise;
+
+import ua.kiev.prog.DTO.ContactDTO;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
